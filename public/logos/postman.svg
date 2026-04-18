@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">Postman logo</title>
+  <rect width="160" height="160" rx="22" fill="#ffffff"/>
+  <circle cx="80" cy="80" r="52" fill="#FF6C37"/>
+  <path d="M54 91 101 44c4-4 11 2 7 7L88 72l20 20c2 2 2 6 0 8l-8 8c-2 2-6 2-8 0L72 88 61 99c-6 6-13-2-7-8z" fill="#ffffff"/>
+  <path d="m73 87 16-16 9 9-16 16-9-9z" fill="#FFB39B"/>
+</svg>

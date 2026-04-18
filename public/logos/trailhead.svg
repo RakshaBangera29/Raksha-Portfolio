@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">Salesforce Trailhead logo</title>
+  <rect width="160" height="160" rx="22" fill="#ffffff"/>
+  <path d="M24 118 62 48l28 44 19-31 27 57H24z" fill="#1BAAE6"/>
+  <path d="M62 48 90 92 72 118H24l38-70z" fill="#31C48D"/>
+  <path d="M90 92 109 61l27 57H72l18-26z" fill="#F6C343"/>
+  <circle cx="115" cy="43" r="13" fill="#FF7A59"/>
+</svg>

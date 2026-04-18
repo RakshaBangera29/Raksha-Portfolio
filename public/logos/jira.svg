@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">Jira logo</title>
+  <rect width="160" height="160" rx="22" fill="#ffffff"/>
+  <path d="M92 28H48c0 18 14 32 32 32h8v8c0 18 14 32 32 32V56c0-15-13-28-28-28z" fill="#2684FF"/>
+  <path d="M72 60H28c0 18 14 32 32 32h8v8c0 18 14 32 32 32V88c0-15-13-28-28-28z" fill="#0052CC"/>
+  <path d="M82 60H48c0 12 10 22 22 22h12V60z" fill="#0065FF"/>
+</svg>
