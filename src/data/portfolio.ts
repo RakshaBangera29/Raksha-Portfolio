@@ -264,7 +264,7 @@ export const portfolio = {
     },
     {
       label: "GitHub",
-      href: "https://github.com/rakshabangera",
+      href: "https://github.com/RakshaBangera29",
       icon: Github,
     },
   ] satisfies ContactLink[],
