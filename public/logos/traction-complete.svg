@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
-  <title id="title">Traction Complete icon</title>
-  <rect width="64" height="64" rx="14" fill="#0f766e"/>
-  <path d="M18 20h28v7H35v23h-7V27H18z" fill="#fff"/>
-  <circle cx="45" cy="44" r="6" fill="#99f6e4"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title">
+  <title id="title">Traction Complete logo</title>
+  <rect width="200" height="200" fill="#171d35"/>
+  <path d="M20 81.5 49.6 103 98.4 68 111 94.5 49.7 133.5 20 112z" fill="#29e343"/>
+  <path d="M82 101.5 151 65.5 163.8 93.4 100.2 132.7z" fill="#29e343"/>
+  <path d="M143 96.4 200 59.2V92.5l-42.8 27.3z" fill="#29e343"/>
 </svg>
