@@ -7,9 +7,10 @@ export default defineConfig(() => {
   };
   const repositoryName = runtime.process?.env?.GITHUB_REPOSITORY?.split("/")[1];
   const isGitHubPages = runtime.process?.env?.GITHUB_PAGES === "true";
+  const isUserPagesSite = repositoryName?.endsWith(".github.io");
 
   return {
-    base: isGitHubPages && repositoryName ? `/${repositoryName}/` : "/",
+    base: isGitHubPages && repositoryName && !isUserPagesSite ? `/${repositoryName}/` : "/",
     plugins: [react()],
   };
 });
