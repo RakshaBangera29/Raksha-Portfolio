@@ -263,18 +263,27 @@ function App() {
                 className="rounded-md border border-zinc-200 bg-white p-6 shadow-[0_12px_34px_rgba(15,23,42,0.05)] transition hover:border-blue-200 dark:border-white/10 dark:bg-white/[0.06]"
               >
                 <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-                  <div>
-                    <h3 className="text-xl font-bold text-zinc-950 dark:text-white">
-                      {item.role}
-                    </h3>
-                    <p className="mt-1 text-zinc-700 dark:text-zinc-300">
-                      {item.company} · {item.location}
-                    </p>
-                    {item.projects ? (
-                      <p className="mt-2 text-sm font-medium text-blue-600 dark:text-blue-300">
-                        Projects: {item.projects}
+                  <div className="flex gap-4">
+                    <span className="grid h-12 w-12 shrink-0 place-items-center rounded-md border border-zinc-200 bg-white shadow-sm dark:border-white/10">
+                      <img
+                        src={item.logo}
+                        alt={item.logoAlt}
+                        className="h-8 w-8 object-contain"
+                      />
+                    </span>
+                    <div>
+                      <h3 className="text-xl font-bold text-zinc-950 dark:text-white">
+                        {item.role}
+                      </h3>
+                      <p className="mt-1 text-zinc-700 dark:text-zinc-300">
+                        {item.company} · {item.location}
                       </p>
-                    ) : null}
+                      {item.projects ? (
+                        <p className="mt-2 text-sm font-medium text-blue-600 dark:text-blue-300">
+                          Projects: {item.projects}
+                        </p>
+                      ) : null}
+                    </div>
                   </div>
                   <span className="inline-flex w-fit items-center gap-2 rounded-md border border-zinc-200 bg-zinc-50 px-3 py-2 text-sm font-medium text-zinc-600 dark:border-white/10 dark:bg-white/10 dark:text-zinc-200">
                     <CalendarDays className="h-4 w-4" />

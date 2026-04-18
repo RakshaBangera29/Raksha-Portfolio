@@ -17,6 +17,8 @@ export type Metric = {
 export type Experience = {
   role: string;
   company: string;
+  logo: string;
+  logoAlt: string;
   projects?: string;
   period: string;
   location: string;
@@ -53,6 +55,8 @@ const logos = {
   postman: `${assetBase}logos/postman.svg`,
   jira: `${assetBase}logos/jira.svg`,
   selenium: `${assetBase}logos/selenium.svg`,
+  tractionComplete: `${assetBase}logos/traction-complete.svg`,
+  deloitte: `${assetBase}logos/deloitte.svg`,
 };
 
 export const portfolio = {
@@ -91,7 +95,9 @@ export const portfolio = {
   experience: [
     {
       role: "Analyst - Salesforce QA",
-      company: "Deloitte Consulting",
+      company: "Traction Complete",
+      logo: logos.tractionComplete,
+      logoAlt: "Traction Complete company icon",
       projects: "Masterbrand Cabinets, Jupiter (Internal), Forcepoint",
       period: "Sep 2023 - Oct 2024",
       location: "Vancouver, BC",
@@ -109,6 +115,8 @@ export const portfolio = {
     {
       role: "Analyst - QA",
       company: "Deloitte Consulting",
+      logo: logos.deloitte,
+      logoAlt: "Deloitte Consulting company icon",
       projects: "MARS, Jupiter (Internal)",
       period: "Sep 2022 - Aug 2023",
       location: "India / Remote",
@@ -123,6 +131,8 @@ export const portfolio = {
     {
       role: "Analyst - QA",
       company: "Deloitte Consulting",
+      logo: logos.deloitte,
+      logoAlt: "Deloitte Consulting company icon",
       projects: "Mercury, Jupiter (Internal)",
       period: "May 2022 - Aug 2022",
       location: "India / Remote",
@@ -137,6 +147,8 @@ export const portfolio = {
     {
       role: "Intern Analyst - QA Automation",
       company: "Deloitte Consulting",
+      logo: logos.deloitte,
+      logoAlt: "Deloitte Consulting company icon",
       projects: "American Express",
       period: "May 2021 - Apr 2022",
       location: "India / Remote",
